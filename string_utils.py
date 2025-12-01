@@ -1,6 +1,3 @@
-
-
-
 def  split_by_capitals(molecular_formula):
   if not molecular_formula:
     return[]
@@ -37,9 +34,6 @@ def count_atoms_in_molecule(molecular_formula):
           atom_and_count[atom_name]+=atom_count
         else:
           atom_and_count[atom_name]=atom_count
-        
-        
-
     return atom_and_count
 
 
