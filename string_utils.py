@@ -29,7 +29,7 @@ def count_atoms_in_molecule(molecular_formula):
     atom_and_count={}
 
     for atom in split_before_uppercases(formula):
-        atom_name, atom_count = split_at_digit(atom)
+        atom_name, atom_count = split_at_digit(element_string)
         if atom_name in atom_and_count:
           atom_and_count[atom_name]+=atom_count
         else:
